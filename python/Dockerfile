@@ -10,4 +10,5 @@ RUN pip3 install ${grdm_jlab_release_url}/rdm_binderhub_jlabextension-refs.tags.
     && jupyter nbextension install --py rdm_binderhub_jlabextension --user \
     && jupyter nbextension enable --py rdm_binderhub_jlabextension --user \
     && jlpm cache clean \
-    && npm cache clean --force
+    && npm cache clean --force \
+    && pip3 cache purge
