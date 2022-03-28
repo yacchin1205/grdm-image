@@ -4,4 +4,4 @@ Dockerfile for GakuNin RDM based on [scipy-notebook](https://hub.docker.com/r/ju
 
 The following tools are additionally installed in this image:
 
-- https://github.com/RCOSDP/CS-jupyterlab-grdm/
+- Sync to RDM button ... https://github.com/RCOSDP/CS-jupyterlab-grdm/
